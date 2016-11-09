@@ -44,9 +44,6 @@ include('functions.php');
                 </form>
 				
             </div>
-            <?php
-		get_all_records();
-		?>
         </div>
           <div>
             <form class="form-horizontal" action="functions.php" method="post" name="upload_excel" enctype="multipart/form-data">
